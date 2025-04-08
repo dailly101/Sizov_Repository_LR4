@@ -29,7 +29,11 @@ void enterNumber(double& varLink, string label) {
 
 
 void checkExistence() {
-
+    if (sideA + sideB > sideC && sideA + sideC > sideB && sideB + sideC > sideA) {  
+        cout << "Треугольник существует." << endl;  
+    } else {  
+        cout << "Треугольник не существует." << endl;  
+    } 
 }
 
 void calculatePerimeter() {
