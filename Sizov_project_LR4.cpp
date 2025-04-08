@@ -33,6 +33,16 @@ void checkExistence() {
 }
 
 void calculatePerimeter() {
+    if (sideA == 0 || sideB == 0 || sideC == 0) {  
+
+        cout << "Ошибка: не все стороны введены." << endl;  
+
+        return;  
+
+    }  
+    double perimeter = sideA + sideB + sideC;  
+
+    cout << "Периметр треугольника: " << perimeter << endl; 
 }
 
 struct MenuItem {
