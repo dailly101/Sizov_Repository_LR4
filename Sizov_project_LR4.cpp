@@ -27,6 +27,11 @@ void enterNumber(double& varLink, string label) {
     varLink = stoi(str_input);
 }
 
+double sideC = 0;  
+void enterSideC() {  
+    enterNumber(sideC, "Введите длину стороны C");  
+    cout << "Сторона C: " << sideC << endl;  
+}  
 
 void checkExistence() {
 
