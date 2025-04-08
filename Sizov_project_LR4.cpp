@@ -26,8 +26,7 @@ void enterNumber(double& varLink, string label) {
     }
     varLink = stoi(str_input);
 }
-
-double sideB = 0;  
+  
 void enterSideB() {  
     enterNumber(sideB, "Введите длину стороны B");  
     cout << "Сторона B: " << sideB << endl;  
