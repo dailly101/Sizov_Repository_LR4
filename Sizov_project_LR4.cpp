@@ -33,15 +33,15 @@ void enterSideA() {
     cout << "Сторона A: " << sideA << endl;
 }
 
-
-
-
-
-
 void enterSideB() {  
     enterNumber(sideB, "Введите длину стороны B");  
     cout << "Сторона B: " << sideB << endl;  
 }
+ 
+void enterSideC() {  
+    enterNumber(sideC, "Введите длину стороны C");  
+    cout << "Сторона C: " << sideC << endl;  
+}  
 
 void checkExistence() {
 
