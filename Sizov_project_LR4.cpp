@@ -26,19 +26,23 @@ void enterNumber(double& varLink, string label) {
     }
     varLink = stoi(str_input);
 }
-
   
+
+
+
 void enterSideC() {  
     enterNumber(sideC, "Введите длину стороны C");  
     cout << "Сторона C: " << sideC << endl;  
 }  
 
-void checkExistence() {
 
+void checkExistence() {
+     
 }
+
 
 void calculatePerimeter() {
-}
+    }
 
 struct MenuItem {
     string title;
